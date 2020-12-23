@@ -1,0 +1,29 @@
+:root {
+    --header-bg-color: #FFFFFF;
+    --site-bg-color: #FFFFFF;
+    --site-text-color: #000;
+    --site-font: sans-serif;
+    --site-text-font: 16px;
+    --site-line-height: 1.5;
+    font-size: var(--site-primary-text-font);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--site-font);
+    font-size: var(--site-text-font);
+    line-height: var(--site-line-height);
+    color: var(--site-text-color);
+    background-color: var(--site-bg-color);
+}

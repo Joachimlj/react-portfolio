@@ -1,5 +1,8 @@
 import React from "react";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import PortraitImage from "../../assets/images/IMG_0888.jpg";
+
 export default function Homepage() {
   return (
     <>
@@ -10,6 +13,8 @@ export default function Homepage() {
         ipsum ratione molestias accusantium, velit illo quis earum delectus
         adipisci quasi!
       </p>
+
+      <LazyLoadImage src={PortraitImage} />
     </>
   );
 }
