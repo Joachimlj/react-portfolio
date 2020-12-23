@@ -42,4 +42,4 @@ yarn lint
 
 ---
 
-Developed with ❤️ by ▽ **Joachim Jørgensen**
+Developed with ❤️ by **Joachim Jørgensen**
